@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngcheck.CheckingTestSequenceWithPriority"/>
+      <class name="testngcheck.AlwaysRunKeyword"/>
+      <class name="testngcheck.InvocationKeyword"/>
+      <class name="testngcheck.Annotations"/>
+      <class name="testngcheck.CheckingTestSequence"/>
+      <class name="testngcheck.ReporterClass"/>
+      <class name="testngcheck.EnabledKeyword"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
